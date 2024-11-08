@@ -358,6 +358,7 @@
       "lavender_field": "2024-11-04 03:12:16 +0000",
       "fir_clearing": "2024-11-01 21:56:59 +0000",
       "prairie": "2024-11-04 00:11:44 +0000",
+      "rainforest": "2024-11-07 17:55:53 +0000",
       "crag": "2024-11-01 21:57:48 +0000"
     },
     "done": false
@@ -5554,15 +5555,27 @@
     },
     "done": true
   },
-  "create:funnel": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "0": "2024-11-05 23:50:03 +0000"
+      "wheat": "2024-11-05 22:58:57 +0000"
     },
     "done": true
   },
-  "create:mechanical_crafter": {
+  "create:recipes/misc/crafting/kinetics/crafter_slot_cover": {
     "criteria": {
-      "0": "2024-11-05 23:44:58 +0000"
+      "has_item": "2024-11-05 23:16:00 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/stripped_fir_wood": {
+    "criteria": {
+      "has_log": "2024-11-05 23:16:34 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/fir_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-05 23:16:34 +0000"
     },
     "done": true
   },
@@ -5578,21 +5591,21 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/stripped_fir_wood": {
-    "criteria": {
-      "has_log": "2024-11-05 23:16:34 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/hay": {
     "criteria": {
       "has_wheat": "2024-11-05 23:22:36 +0000"
     },
     "done": true
   },
-  "biomesoplenty:recipes/decorations/fir_hanging_sign": {
+  "create:mechanical_crafter": {
     "criteria": {
-      "has_stripped_logs": "2024-11-05 23:16:34 +0000"
+      "0": "2024-11-05 23:44:58 +0000"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2024-11-05 23:50:03 +0000"
     },
     "done": true
   },
@@ -5602,15 +5615,135 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/crafter_slot_cover": {
+  "mekanism:chemical_transport": {
     "criteria": {
-      "has_item": "2024-11-05 23:16:00 +0000"
+      "basic_pressurized_tube": "2024-11-07 18:22:13 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
+  "mekanism:chemical_tank": {
     "criteria": {
-      "wheat": "2024-11-05 22:58:57 +0000"
+      "basic_chemical_tank": "2024-11-07 18:38:38 +0000"
+    },
+    "done": true
+  },
+  "mekanism:simple_mass_storage": {
+    "criteria": {
+      "basic_bin": "2024-11-07 18:42:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-11-07 19:49:49 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-11-07 19:50:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-11-07 19:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-11-07 19:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-11-07 19:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-11-07 19:50:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-11-07 19:50:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-11-07 19:50:02 +0000"
+    },
+    "done": true
+  },
+  "mekanism:teleportation_core": {
+    "criteria": {
+      "teleportation_core": "2024-11-07 19:43:41 +0000"
+    },
+    "done": true
+  },
+  "mekanism:digital_miner": {
+    "criteria": {
+      "digital_miner": "2024-11-07 19:45:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-11-07 19:50:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-11-07 19:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-11-07 19:50:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-11-07 19:50:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-11-07 19:57:30 +0000"
+    },
+    "done": true
+  },
+  "mekanism:logistical_sorter": {
+    "criteria": {
+      "logistical_sorter": "2024-11-07 19:42:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-11-07 19:49:47 +0000"
+    },
+    "done": true
+  },
+  "mekanism:personal_storage": {
+    "criteria": {
+      "storage": "2024-11-07 19:36:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-11-07 19:50:24 +0000"
     },
     "done": true
   },

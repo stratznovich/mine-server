@@ -876,6 +876,7 @@
       "minecraft:piglin": "2024-11-03 23:22:59 +0000",
       "minecraft:enderman": "2024-10-30 04:26:54 +0000",
       "minecraft:zombie": "2024-10-29 01:44:10 +0000",
+      "minecraft:drowned": "2024-11-08 01:35:36 +0000",
       "minecraft:zombie_villager": "2024-10-30 03:09:04 +0000"
     },
     "done": false
@@ -8005,9 +8006,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
-      "0": "2024-11-05 02:06:49 +0000"
+      "0": "2024-11-05 02:06:49 +0000",
+      "1": "2024-11-08 04:05:21 +0000"
     },
-    "done": false
+    "done": true
   },
   "create:belt": {
     "criteria": {
@@ -8468,6 +8470,246 @@
   "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
     "criteria": {
       "has_nether_gold_ore": "2024-11-07 03:00:19 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_planks": {
+    "criteria": {
+      "has_logs": "2024-11-07 21:05:31 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_wood": {
+    "criteria": {
+      "has_log": "2024-11-07 21:05:31 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_button": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/dead_fence": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/dead_sign": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_door": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_slab": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/dead_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-07 21:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2024-11-07 21:27:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2024-11-07 21:27:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-11-07 21:28:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-11-07 21:28:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2024-11-08 04:14:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-11-08 03:03:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2024-11-08 04:14:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/glass_from_tiled_glass": {
+    "criteria": {
+      "has_item": "2024-11-08 01:22:22 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:radiation_prevention": {
+    "criteria": {
+      "full_set": "2024-11-08 04:12:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:radiation_poisoning": {
+    "criteria": {
+      "poisoned": "2024-11-08 04:09:49 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/iron_ladder": {
+    "criteria": {
+      "has_iron_bars": "2024-11-08 00:13:30 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tiled_glass_pane": {
+    "criteria": {
+      "has_ingredient": "2024-11-08 01:22:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wolf_smithing": {
+    "criteria": {
+      "has_wolf": "2024-11-08 05:32:58 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/misc/netherite_nugget_from_netherite_ingot": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:radiation_poisoning_death": {
+    "criteria": {
+      "death": "2024-11-08 04:10:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:all_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-08 03:59:43 +0000"
     },
     "done": true
   },

@@ -6770,24 +6770,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
-    "criteria": {
-      "has_smooth_stone": "2024-11-07 15:53:54 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
-    "criteria": {
-      "has_red_dye": "2024-11-07 15:48:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/yellow_candle": {
     "criteria": {
       "has_yellow_dye": "2024-11-07 15:48:32 +0000"
@@ -6806,51 +6788,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_black_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_yellow_dye": "2024-11-07 15:48:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_orange_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:36 +0000"
-    },
-    "done": true
-  },
-  "mekanism:radiation_prevention": {
-    "criteria": {
-      "full_set": "2024-11-07 15:50:49 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/red_placard_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-07 15:48:34 +0000"
     },
     "done": true
   },
@@ -6860,15 +6800,45 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_red_sleeping_bag": {
+  "travelersbackpack:recipes/building_blocks/dye_yellow_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:48:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:48:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
     "criteria": {
       "has_needed_dye": "2024-11-07 15:48:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gray_dye": {
+  "minecraft:recipes/building_blocks/dye_red_wool": {
     "criteria": {
-      "has_black_dye": "2024-11-07 15:50:38 +0000"
+      "has_needed_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/red_placard_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_red_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:48:34 +0000"
     },
     "done": true
   },
@@ -6878,9 +6848,33 @@
     },
     "done": true
   },
-  "mekanism:radiation_poisoning": {
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
-      "poisoned": "2024-11-07 15:59:33 +0000"
+      "has_needed_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2024-11-07 15:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:48:36 +0000"
     },
     "done": true
   },
@@ -6908,9 +6902,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_red_carpet": {
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
     "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:34 +0000"
+      "has_needed_dye": "2024-11-07 15:48:36 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/black_placard_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-11-07 15:50:38 +0000"
+    },
+    "done": true
+  },
+  "mekanism:radiation_prevention": {
+    "criteria": {
+      "full_set": "2024-11-07 15:50:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-11-07 15:53:54 +0000"
     },
     "done": true
   },
@@ -6926,27 +6980,9 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/black_placard_from_dyeing": {
+  "mekanism:radiation_poisoning": {
     "criteria": {
-      "has_dye": "2024-11-07 15:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/purple_dye": {
-    "criteria": {
-      "has_red_dye": "2024-11-07 15:48:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_candle": {
-    "criteria": {
-      "has_red_dye": "2024-11-07 15:48:34 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_yellow_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:32 +0000"
+      "poisoned": "2024-11-07 15:59:33 +0000"
     },
     "done": true
   },
@@ -6956,39 +6992,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_orange_wool": {
+  "travelersbackpack:recipes/misc/hay_smithing": {
     "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:36 +0000"
+      "has_hay": "2024-11-07 16:08:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+  "twilightforest:recipes/decorations/iron_ladder": {
     "criteria": {
-      "has_red_dye": "2024-11-07 15:48:34 +0000"
+      "has_iron_bars": "2024-11-08 00:46:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+  "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "has_black_dye": "2024-11-07 15:50:38 +0000"
+      "has_emerald": "2024-11-08 00:56:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+  "travelersbackpack:recipes/misc/emerald": {
     "criteria": {
-      "has_needed_dye": "2024-11-07 15:48:32 +0000"
+      "has_emerald": "2024-11-08 00:56:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_candle": {
+  "alexsmobs:alexsmobs/acacia_blossom": {
     "criteria": {
-      "has_black_dye": "2024-11-07 15:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-11-07 15:50:38 +0000"
+      "acacia_blossom": "2024-11-08 00:56:49 +0000"
     },
     "done": true
   },
