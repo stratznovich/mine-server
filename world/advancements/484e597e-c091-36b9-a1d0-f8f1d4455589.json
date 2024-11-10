@@ -359,7 +359,8 @@
       "fir_clearing": "2024-11-01 21:56:59 +0000",
       "prairie": "2024-11-04 00:11:44 +0000",
       "rainforest": "2024-11-07 17:55:53 +0000",
-      "crag": "2024-11-01 21:57:48 +0000"
+      "crag": "2024-11-01 21:57:48 +0000",
+      "ominous_woods": "2024-11-09 05:50:25 +0000"
     },
     "done": false
   },
@@ -5633,51 +5634,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+  "mekanism:personal_storage": {
     "criteria": {
-      "has_deepslate_lapis_ore": "2024-11-07 19:49:49 +0000"
+      "storage": "2024-11-07 19:36:41 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/smelting/zinc_ingot_from_ore": {
+  "mekanism:logistical_sorter": {
     "criteria": {
-      "has_item": "2024-11-07 19:50:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
-    "criteria": {
-      "has_deepslate_diamond_ore": "2024-11-07 19:49:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2024-11-07 19:50:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
-    "criteria": {
-      "has_deepslate_lapis_ore": "2024-11-07 19:49:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2024-11-07 19:50:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
-    "criteria": {
-      "has_copper_ore": "2024-11-07 19:50:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
-    "criteria": {
-      "has_coal_ore": "2024-11-07 19:50:02 +0000"
+      "logistical_sorter": "2024-11-07 19:42:44 +0000"
     },
     "done": true
   },
@@ -5693,9 +5658,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-11-07 19:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-11-07 19:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-11-07 19:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-11-07 19:49:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-11-07 19:50:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-11-07 19:50:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-11-07 19:50:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
     "criteria": {
       "has_copper_ore": "2024-11-07 19:50:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-11-07 19:50:23 +0000"
     },
     "done": true
   },
@@ -5705,9 +5718,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+  "create:recipes/misc/smelting/zinc_ingot_from_ore": {
     "criteria": {
-      "has_coal_ore": "2024-11-07 19:50:02 +0000"
+      "has_item": "2024-11-07 19:50:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-11-07 19:50:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-11-07 19:50:26 +0000"
     },
     "done": true
   },
@@ -5723,27 +5748,93 @@
     },
     "done": true
   },
-  "mekanism:logistical_sorter": {
+  "minecraft:recipes/misc/raw_iron": {
     "criteria": {
-      "logistical_sorter": "2024-11-07 19:42:44 +0000"
+      "has_raw_iron_block": "2024-11-09 05:10:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+  "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
-      "has_deepslate_diamond_ore": "2024-11-07 19:49:47 +0000"
+      "has_flint": "2024-11-09 05:29:05 +0000"
     },
     "done": true
   },
-  "mekanism:personal_storage": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "storage": "2024-11-07 19:36:41 +0000"
+      "has_flint": "2024-11-09 05:29:05 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/blasting/zinc_ingot_from_ore": {
+  "mekanism:pump": {
     "criteria": {
-      "has_item": "2024-11-07 19:50:24 +0000"
+      "electric_pump": "2024-11-09 05:29:50 +0000"
+    },
+    "done": true
+  },
+  "mekanism:enricher": {
+    "criteria": {
+      "enrichment_chamber": "2024-11-09 05:37:37 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:burn_the_gas": {
+    "criteria": {
+      "gas_burning_generator": "2024-11-09 06:09:16 +0000"
+    },
+    "done": true
+  },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2024-11-09 06:23:05 +0000"
+    },
+    "done": true
+  },
+  "mekanism:fluid_transport": {
+    "criteria": {
+      "basic_mechanical_pipe": "2024-11-09 06:50:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-09 19:49:17 +0000"
+    },
+    "done": true
+  },
+  "mekanism:injection_chamber": {
+    "criteria": {
+      "chemical_injection_chamber": "2024-11-09 18:29:09 +0000"
+    },
+    "done": true
+  },
+  "mekanism:purification_chamber": {
+    "criteria": {
+      "purification_chamber": "2024-11-09 18:28:56 +0000"
+    },
+    "done": true
+  },
+  "mekanism:elite_control_circuit": {
+    "criteria": {
+      "elite_control_circuit": "2024-11-09 18:27:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-09 19:49:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-09 19:49:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-09 19:49:17 +0000"
     },
     "done": true
   },
