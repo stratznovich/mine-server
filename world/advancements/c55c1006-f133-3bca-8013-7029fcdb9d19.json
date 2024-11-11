@@ -39,6 +39,7 @@
       "minecraft:old_growth_spruce_taiga": "2024-11-02 04:47:38 +0000",
       "minecraft:frozen_peaks": "2024-10-31 23:48:34 +0000",
       "minecraft:old_growth_birch_forest": "2024-11-02 05:36:10 +0000",
+      "minecraft:deep_dark": "2024-11-11 01:45:11 +0000",
       "minecraft:meadow": "2024-11-03 01:23:24 +0000",
       "minecraft:plains": "2024-10-29 04:23:45 +0000"
     },
@@ -855,6 +856,7 @@
       "bread": "2024-10-29 04:42:33 +0000",
       "rotten_flesh": "2024-10-29 02:03:42 +0000",
       "dried_kelp": "2024-10-29 01:35:20 +0000",
+      "golden_carrot": "2024-11-10 22:38:51 +0000",
       "cooked_chicken": "2024-10-29 04:13:36 +0000",
       "carrot": "2024-11-05 01:37:30 +0000"
     },
@@ -8950,45 +8952,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-11-09 22:11:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-11-09 22:11:59 +0000"
-    },
-    "done": true
-  },
-  "mekanism:ultimate_control_circuit": {
-    "criteria": {
-      "ultimate_control_circuit": "2024-11-10 00:06:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-11-09 22:11:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_orange_bed": {
     "criteria": {
       "has_needed_dye": "2024-11-09 22:11:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/armor_stand": {
-    "criteria": {
-      "has_stone_slab": "2024-11-09 22:12:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gray_dye": {
-    "criteria": {
-      "has_black_dye": "2024-11-09 22:11:59 +0000"
     },
     "done": true
   },
@@ -8997,12 +8963,6 @@
       "has_orange_dye": "2024-11-09 22:11:10 +0000"
     },
     "done": true
-  },
-  "mekanism:chemical_crystallizer": {
-    "criteria": {
-      "chemical_dissolution_chamber": "2024-11-10 01:01:05 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/dye_orange_carpet": {
     "criteria": {
@@ -9022,39 +8982,45 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/black_placard_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-09 22:11:59 +0000"
-    },
-    "done": true
-  },
-  "mekanism:restrictive_item_transport": {
-    "criteria": {
-      "restrictive_transporter": "2024-11-10 04:11:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_orange_wool": {
     "criteria": {
       "has_needed_dye": "2024-11-09 22:11:10 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-11-09 22:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-09 22:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-09 22:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_black_dye": "2024-11-09 22:11:59 +0000"
     },
     "done": true
   },
-  "mekanism:stone_generator": {
+  "createdeco:recipes/decorations/black_placard_from_dyeing": {
     "criteria": {
-      "upgrade_stone_generator": "2024-11-10 01:13:26 +0000"
+      "has_dye": "2024-11-09 22:11:59 +0000"
     },
     "done": true
   },
-  "mekanism:yellow_cake": {
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
-      "yellow_cake_uranium": "2024-11-10 00:18:57 +0000"
+      "has_black_dye": "2024-11-09 22:11:59 +0000"
     },
     "done": true
   },
@@ -9067,6 +9033,114 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2024-11-09 22:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-11-09 22:12:51 +0000"
+    },
+    "done": true
+  },
+  "mekanism:ultimate_control_circuit": {
+    "criteria": {
+      "ultimate_control_circuit": "2024-11-10 00:06:57 +0000"
+    },
+    "done": true
+  },
+  "mekanism:yellow_cake": {
+    "criteria": {
+      "yellow_cake_uranium": "2024-11-10 00:18:57 +0000"
+    },
+    "done": true
+  },
+  "mekanism:chemical_crystallizer": {
+    "criteria": {
+      "chemical_dissolution_chamber": "2024-11-10 01:01:05 +0000"
+    },
+    "done": false
+  },
+  "mekanism:stone_generator": {
+    "criteria": {
+      "upgrade_stone_generator": "2024-11-10 01:13:26 +0000"
+    },
+    "done": true
+  },
+  "mekanism:restrictive_item_transport": {
+    "criteria": {
+      "restrictive_transporter": "2024-11-10 04:11:05 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:burn_the_gas": {
+    "criteria": {
+      "gas_burning_generator": "2024-11-10 23:36:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-11-11 04:02:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-11-11 04:02:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2024-11-11 04:02:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2024-11-11 04:02:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-11-11 04:42:18 +0000"
+    },
+    "done": true
+  },
+  "mekanism:plutonium": {
+    "criteria": {
+      "pellet_plutonium": "2024-11-11 06:44:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-11-11 04:42:15 +0000"
+    },
+    "done": true
+  },
+  "mekanism:environmental_radiation": {
+    "criteria": {
+      "use_geiger_counter": "2024-11-11 04:45:17 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot": {
+    "criteria": {
+      "has_cod": "2024-11-11 04:42:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-11-11 04:42:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-11-11 04:42:18 +0000"
     },
     "done": true
   },
