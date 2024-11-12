@@ -6587,6 +6587,7 @@
   },
   "mekanism:chemical_crystallizer": {
     "criteria": {
+      "chemical_dissolution_chamber": "2024-11-11 19:34:20 +0000",
       "chemical_crystallizer": "2024-11-09 14:48:27 +0000"
     },
     "done": false
@@ -6696,6 +6697,24 @@
   "mekanism:sna": {
     "criteria": {
       "solar_neutron_activator": "2024-11-10 19:38:34 +0000"
+    },
+    "done": true
+  },
+  "mekanism:polonium": {
+    "criteria": {
+      "pellet_polonium": "2024-11-12 01:33:15 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/iron_ladder": {
+    "criteria": {
+      "has_iron_bars": "2024-11-12 03:49:19 +0000"
+    },
+    "done": true
+  },
+  "mekanism:waste_removal": {
+    "criteria": {
+      "radioactive_waste_barrel": "2024-11-12 05:09:42 +0000"
     },
     "done": true
   },
