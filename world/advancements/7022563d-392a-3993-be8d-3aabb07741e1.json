@@ -20,6 +20,8 @@
       "minecraft:cherry_grove": "2024-10-30 01:21:33 +0000",
       "minecraft:birch_forest": "2024-11-04 20:26:32 +0000",
       "minecraft:beach": "2024-11-02 21:49:55 +0000",
+      "minecraft:mangrove_swamp": "2024-11-13 03:30:04 +0000",
+      "minecraft:sparse_jungle": "2024-11-13 03:29:43 +0000",
       "minecraft:river": "2024-10-28 18:01:26 +0000",
       "minecraft:lukewarm_ocean": "2024-11-07 00:29:59 +0000",
       "minecraft:stony_shore": "2024-10-28 19:57:25 +0000",
@@ -34,6 +36,7 @@
       "minecraft:deep_frozen_ocean": "2024-10-28 23:02:34 +0000",
       "minecraft:ocean": "2024-11-04 20:56:31 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-10-29 23:25:23 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-11-13 03:20:24 +0000",
       "minecraft:flower_forest": "2024-11-03 02:45:10 +0000",
       "minecraft:frozen_peaks": "2024-10-30 01:20:29 +0000",
       "minecraft:old_growth_birch_forest": "2024-11-04 20:59:13 +0000",
@@ -588,6 +591,7 @@
       "highland": "2024-11-04 04:54:50 +0000",
       "jacaranda_glade": "2024-11-02 21:19:10 +0000",
       "jade_cliffs": "2024-11-04 20:30:05 +0000",
+      "old_growth_woodland": "2024-11-13 03:19:50 +0000",
       "maple_woods": "2024-10-28 22:56:34 +0000",
       "field": "2024-10-29 18:10:10 +0000",
       "orchard": "2024-11-04 20:28:00 +0000",
@@ -6715,6 +6719,18 @@
   "mekanism:waste_removal": {
     "criteria": {
       "radioactive_waste_barrel": "2024-11-12 05:09:42 +0000"
+    },
+    "done": true
+  },
+  "mekanism:network_reader": {
+    "criteria": {
+      "network_reader": "2024-11-13 02:36:16 +0000"
+    },
+    "done": true
+  },
+  "mekanism:quantum_entangloporter": {
+    "criteria": {
+      "quantum_entangloporter": "2024-11-13 02:52:39 +0000"
     },
     "done": true
   },
