@@ -566,6 +566,7 @@
       "baked_potato": "2024-10-29 21:07:49 +0000",
       "cooked_cod": "2024-11-03 22:16:07 +0000",
       "bread": "2024-10-29 01:21:47 +0000",
+      "melon_slice": "2024-11-13 23:14:44 +0000",
       "golden_carrot": "2024-11-10 15:12:44 +0000",
       "cooked_chicken": "2024-10-28 23:46:47 +0000"
     },
@@ -604,10 +605,12 @@
       "dune_beach": "2024-11-02 21:49:24 +0000",
       "seasonal_forest": "2024-11-02 21:46:58 +0000",
       "pasture": "2024-11-02 21:06:09 +0000",
+      "rocky_rainforest": "2024-11-14 19:56:11 +0000",
       "lavender_field": "2024-11-04 20:28:05 +0000",
       "fir_clearing": "2024-10-29 18:03:39 +0000",
       "pumpkin_patch": "2024-10-30 02:40:09 +0000",
       "prairie": "2024-11-02 21:19:04 +0000",
+      "grassland": "2024-11-14 20:21:16 +0000",
       "gravel_beach": "2024-10-30 02:44:57 +0000",
       "glowing_grotto": "2024-11-04 13:38:34 +0000",
       "rainforest": "2024-11-06 23:25:15 +0000",
@@ -6731,6 +6734,30 @@
   "mekanism:quantum_entangloporter": {
     "criteria": {
       "quantum_entangloporter": "2024-11-13 02:52:39 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/glass_from_framed_glass": {
+    "criteria": {
+      "has_item": "2024-11-13 16:43:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/framed_glass_door": {
+    "criteria": {
+      "has_item": "2024-11-13 16:43:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_pane": {
+    "criteria": {
+      "has_ingredient": "2024-11-13 16:43:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/framed_glass_trapdoor": {
+    "criteria": {
+      "has_item": "2024-11-13 16:43:03 +0000"
     },
     "done": true
   },

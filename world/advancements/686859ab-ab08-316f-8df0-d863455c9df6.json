@@ -1295,6 +1295,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-11-02 07:45:52 +0000",
+      "minecraft:pillager": "2024-11-14 11:46:54 +0000",
       "minecraft:skeleton": "2024-10-29 22:59:16 +0000",
       "minecraft:ghast": "2024-11-04 15:25:59 +0000",
       "minecraft:hoglin": "2024-11-02 14:20:59 +0000",
@@ -7154,87 +7155,15 @@
     },
     "done": true
   },
-  "mekanism:mekasuit": {
-    "criteria": {
-      "full_set": "2024-11-13 00:53:31 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed": "2024-11-13 01:49:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-11-13 01:44:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2024-11-13 01:39:32 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/capsid": {
-    "criteria": {
-      "capsid": "2024-11-13 01:49:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2024-11-13 01:48:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-11-13 01:44:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2024-11-13 02:00:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2024-11-13 01:39:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2024-11-13 01:57:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2024-11-13 01:44:24 +0000"
-    },
-    "done": true
-  },
   "mekanism:modification_station": {
     "criteria": {
       "modification_station": "2024-11-13 00:48:28 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
+  "mekanism:mekasuit": {
     "criteria": {
-      "has_end_stone": "2024-11-13 01:44:48 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/end": {
-    "criteria": {
-      "has_ender_eye": "2024-11-13 01:39:32 +0000"
+      "full_set": "2024-11-13 00:53:31 +0000"
     },
     "done": true
   },
@@ -7250,15 +7179,57 @@
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
+  "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
-      "in_city": "2024-11-13 01:57:27 +0000"
+      "has_wither_skeleton_skull": "2024-11-13 01:37:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-11-13 01:39:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-11-13 01:39:32 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/end": {
+    "criteria": {
+      "has_ender_eye": "2024-11-13 01:39:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-11-13 01:44:24 +0000"
     },
     "done": true
   },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2024-11-13 01:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-13 01:44:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-13 01:44:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-11-13 01:44:48 +0000"
     },
     "done": true
   },
@@ -7274,9 +7245,123 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/skull_banner_pattern": {
+  "minecraft:end/enter_end_gateway": {
     "criteria": {
-      "has_wither_skeleton_skull": "2024-11-13 01:37:37 +0000"
+      "entered_end_gateway": "2024-11-13 01:48:52 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed": "2024-11-13 01:49:27 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2024-11-13 01:49:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-11-13 01:57:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-11-13 01:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-11-13 02:00:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-11-13 23:53:10 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/lapis_smithing": {
+    "criteria": {
+      "has_lapis": "2024-11-13 23:53:16 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/green_placard_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_green_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_green_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-14 00:01:34 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/hose": {
+    "criteria": {
+      "has_hose_nozzle": "2024-11-14 00:01:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-11-14 00:30:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-11-14 00:30:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-11-14 11:46:54 +0000"
     },
     "done": true
   },

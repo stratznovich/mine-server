@@ -13,6 +13,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-11-14 21:39:35 +0000",
       "minecraft:old_growth_pine_taiga": "2024-10-28 22:37:02 +0000",
       "minecraft:taiga": "2024-10-28 22:25:08 +0000",
       "minecraft:frozen_river": "2024-10-28 23:00:01 +0000",
@@ -33,6 +34,8 @@
       "minecraft:jungle": "2024-11-01 02:43:27 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-10-28 22:39:58 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-11-01 02:34:46 +0000",
+      "minecraft:flower_forest": "2024-11-13 20:15:15 +0000",
+      "minecraft:frozen_peaks": "2024-11-14 21:39:37 +0000",
       "minecraft:meadow": "2024-10-28 23:07:56 +0000",
       "minecraft:savanna": "2024-11-01 02:38:17 +0000",
       "minecraft:plains": "2024-10-28 23:03:36 +0000"
@@ -5925,9 +5928,10 @@
   },
   "mekanism:teleporter": {
     "criteria": {
-      "teleporter": "2024-11-05 02:47:11 +0000"
+      "teleporter": "2024-11-05 02:47:11 +0000",
+      "teleport": "2024-11-14 21:43:48 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
@@ -7437,6 +7441,7 @@
   },
   "mekanism:chemical_crystallizer": {
     "criteria": {
+      "chemical_dissolution_chamber": "2024-11-14 03:15:48 +0000",
       "chemical_crystallizer": "2024-11-13 03:24:00 +0000"
     },
     "done": false
@@ -7444,6 +7449,90 @@
   "mekanism:quantum_entangloporter": {
     "criteria": {
       "quantum_entangloporter": "2024-11-13 04:54:39 +0000"
+    },
+    "done": true
+  },
+  "mekanism:polonium": {
+    "criteria": {
+      "pellet_polonium": "2024-11-13 16:10:36 +0000"
+    },
+    "done": true
+  },
+  "mekanism:stabilizing_chunks": {
+    "criteria": {
+      "upgrade_anchor": "2024-11-13 20:37:34 +0000"
+    },
+    "done": false
+  },
+  "mekanism:yellow_cake": {
+    "criteria": {
+      "yellow_cake_uranium": "2024-11-14 03:18:40 +0000"
+    },
+    "done": true
+  },
+  "mekanism:waste_removal": {
+    "criteria": {
+      "radioactive_waste_barrel": "2024-11-14 05:55:52 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/iron_ladder": {
+    "criteria": {
+      "has_iron_bars": "2024-11-14 06:21:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-14 21:48:40 +0000"
     },
     "done": true
   },
