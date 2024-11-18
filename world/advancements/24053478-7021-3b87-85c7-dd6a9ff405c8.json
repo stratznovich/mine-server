@@ -18,6 +18,7 @@
       "minecraft:taiga": "2024-10-28 22:25:08 +0000",
       "minecraft:frozen_river": "2024-10-28 23:00:01 +0000",
       "minecraft:sunflower_plains": "2024-11-16 01:43:53 +0000",
+      "minecraft:birch_forest": "2024-11-18 00:12:33 +0000",
       "minecraft:beach": "2024-11-01 02:33:17 +0000",
       "minecraft:mangrove_swamp": "2024-11-01 03:29:52 +0000",
       "minecraft:sparse_jungle": "2024-11-01 03:25:03 +0000",
@@ -26,6 +27,7 @@
       "minecraft:stony_shore": "2024-10-28 22:26:28 +0000",
       "minecraft:snowy_plains": "2024-11-16 03:53:18 +0000",
       "minecraft:dripstone_caves": "2024-10-28 23:21:29 +0000",
+      "minecraft:snowy_taiga": "2024-11-17 16:30:32 +0000",
       "minecraft:grove": "2024-10-28 22:24:45 +0000",
       "minecraft:jagged_peaks": "2024-10-28 22:24:21 +0000",
       "minecraft:cold_ocean": "2024-10-28 22:54:00 +0000",
@@ -528,7 +530,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-11-18 00:33:18 +0000",
       "minecraft:skeleton": "2024-10-28 22:54:59 +0000",
+      "minecraft:ravager": "2024-11-18 00:35:35 +0000",
+      "minecraft:vindicator": "2024-11-18 00:34:50 +0000",
       "minecraft:spider": "2024-10-29 01:53:07 +0000",
       "minecraft:creeper": "2024-10-29 02:43:14 +0000",
       "minecraft:phantom": "2024-11-04 23:57:46 +0000",
@@ -1162,6 +1167,7 @@
     "criteria": {
       "muskeg": "2024-11-16 02:21:26 +0000",
       "woodland": "2024-11-01 02:32:39 +0000",
+      "shrubland": "2024-11-18 00:12:24 +0000",
       "snowblossom_grove": "2024-10-28 22:59:12 +0000",
       "rocky_shrubland": "2024-11-01 01:48:27 +0000",
       "scrubland": "2024-11-01 02:38:07 +0000",
@@ -7921,9 +7927,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/giant_cobblestone_to_cobblestone": {
+  "twilightforest:maze_map": {
     "criteria": {
-      "has_item": "2024-11-16 01:47:02 +0000"
+      "maze_map": "2024-11-15 22:42:04 +0000"
     },
     "done": true
   },
@@ -7933,21 +7939,21 @@
     },
     "done": true
   },
-  "twilightforest:recipes/tools/equipment/giant_pickaxe": {
+  "mekanism:alarm": {
+    "criteria": {
+      "industrial_alarm": "2024-11-16 01:12:57 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/giant_cobblestone_to_cobblestone": {
     "criteria": {
       "has_item": "2024-11-16 01:47:02 +0000"
     },
     "done": true
   },
-  "mekanism:qio_importer": {
+  "twilightforest:recipes/tools/equipment/giant_pickaxe": {
     "criteria": {
-      "qio_importer": "2024-11-16 02:08:23 +0000"
-    },
-    "done": true
-  },
-  "mekanism:alarm": {
-    "criteria": {
-      "industrial_alarm": "2024-11-16 01:12:57 +0000"
+      "has_item": "2024-11-16 01:47:02 +0000"
     },
     "done": true
   },
@@ -7963,9 +7969,69 @@
     },
     "done": true
   },
-  "twilightforest:maze_map": {
+  "mekanism:qio_importer": {
     "criteria": {
-      "maze_map": "2024-11-15 22:42:04 +0000"
+      "qio_importer": "2024-11-16 02:08:23 +0000"
+    },
+    "done": true
+  },
+  "mekanism:qio_exporter": {
+    "criteria": {
+      "qio_exporter": "2024-11-17 16:09:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-11-18 00:33:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-11-18 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 23:52:17 +0000"
     },
     "done": true
   },

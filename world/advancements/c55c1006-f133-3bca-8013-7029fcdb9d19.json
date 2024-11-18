@@ -22,6 +22,7 @@
       "minecraft:snowy_slopes": "2024-10-31 23:48:31 +0000",
       "minecraft:old_growth_pine_taiga": "2024-11-02 04:47:36 +0000",
       "minecraft:taiga": "2024-10-29 03:52:52 +0000",
+      "minecraft:deep_ocean": "2024-11-17 00:10:47 +0000",
       "minecraft:cherry_grove": "2024-10-31 23:40:26 +0000",
       "minecraft:birch_forest": "2024-10-29 04:27:03 +0000",
       "minecraft:beach": "2024-10-29 04:21:47 +0000",
@@ -555,6 +556,7 @@
       "field": "2024-11-01 00:09:27 +0000",
       "orchard": "2024-11-02 04:39:25 +0000",
       "overgrown_greens": "2024-10-29 03:50:01 +0000",
+      "mediterranean_forest": "2024-11-18 01:40:15 +0000",
       "coniferous_forest": "2024-10-29 01:28:21 +0000",
       "spider_nest": "2024-10-29 02:34:45 +0000",
       "redwood_forest": "2024-10-29 03:49:36 +0000",
@@ -868,8 +870,10 @@
       "minecraft:blaze": "2024-11-05 01:41:27 +0000",
       "minecraft:pillager": "2024-11-08 20:32:19 +0000",
       "minecraft:skeleton": "2024-10-29 01:35:09 +0000",
+      "minecraft:elder_guardian": "2024-11-18 01:31:04 +0000",
       "minecraft:ravager": "2024-11-08 20:35:08 +0000",
       "minecraft:ghast": "2024-11-03 23:13:12 +0000",
+      "minecraft:guardian": "2024-11-18 01:28:18 +0000",
       "minecraft:vindicator": "2024-11-08 20:33:29 +0000",
       "minecraft:magma_cube": "2024-11-03 23:18:42 +0000",
       "minecraft:spider": "2024-10-29 01:56:52 +0000",
@@ -9685,6 +9689,234 @@
     "criteria": {
       "sps_casing": "2024-11-16 03:06:04 +0000",
       "sps_port": "2024-11-16 03:29:01 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skreecher": {
+    "criteria": {
+      "killed": "2024-11-16 21:08:00 +0000"
+    },
+    "done": true
+  },
+  "mekanism:full_canteen": {
+    "criteria": {
+      "full_canteen": "2024-11-17 01:53:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-11-17 02:13:26 +0000"
+    },
+    "done": true
+  },
+  "mekanism:qio_exporter": {
+    "criteria": {
+      "qio_exporter": "2024-11-17 02:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-11-17 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "mekanism:qio_redstone_adapter": {
+    "criteria": {
+      "qio_redstone_adapter": "2024-11-17 02:31:11 +0000"
+    },
+    "done": true
+  },
+  "mekanism:alloy_upgrading": {
+    "criteria": {
+      "upgrade": "2024-11-17 04:31:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-11-17 21:15:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-11-17 21:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-11-17 21:15:55 +0000"
+    },
+    "done": true
+  },
+  "mekanism:painting_machine": {
+    "criteria": {
+      "painting_machine": "2024-11-17 21:16:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2024-11-17 22:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-17 22:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-11-18 01:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-11-18 01:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-11-18 01:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-11-18 01:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2024-11-18 01:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-11-18 01:31:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-11-18 01:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-11-18 01:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2024-11-18 01:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2024-11-18 01:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-11-18 01:29:10 +0000"
     },
     "done": true
   },

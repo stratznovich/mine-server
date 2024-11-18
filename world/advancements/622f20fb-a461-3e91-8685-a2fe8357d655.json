@@ -21,10 +21,14 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-11-14 21:41:38 +0000",
       "minecraft:taiga": "2024-11-15 22:54:29 +0000",
+      "minecraft:deep_ocean": "2024-11-17 06:24:56 +0000",
       "minecraft:sunflower_plains": "2024-11-15 07:11:32 +0000",
+      "minecraft:birch_forest": "2024-11-17 04:12:15 +0000",
       "minecraft:beach": "2024-11-15 06:43:50 +0000",
+      "minecraft:dark_forest": "2024-11-17 04:12:16 +0000",
       "minecraft:river": "2024-11-14 22:12:44 +0000",
       "minecraft:lukewarm_ocean": "2024-11-15 07:17:40 +0000",
+      "minecraft:stony_shore": "2024-11-17 06:28:34 +0000",
       "minecraft:grove": "2024-11-14 21:38:02 +0000",
       "minecraft:jagged_peaks": "2024-11-14 21:37:41 +0000",
       "minecraft:cold_ocean": "2024-11-15 04:50:24 +0000",
@@ -35,6 +39,7 @@
       "minecraft:deep_lukewarm_ocean": "2024-11-15 07:17:49 +0000",
       "minecraft:flower_forest": "2024-11-15 07:11:36 +0000",
       "minecraft:frozen_peaks": "2024-11-14 21:42:12 +0000",
+      "minecraft:old_growth_birch_forest": "2024-11-17 04:12:27 +0000",
       "minecraft:meadow": "2024-11-14 21:42:43 +0000",
       "minecraft:plains": "2024-11-14 21:41:43 +0000"
     },
@@ -564,13 +569,16 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-11-18 00:34:13 +0000",
       "minecraft:skeleton": "2024-11-14 23:20:12 +0000",
+      "minecraft:vindicator": "2024-11-18 00:35:00 +0000",
       "minecraft:spider": "2024-11-15 00:53:55 +0000",
       "minecraft:creeper": "2024-11-14 23:51:50 +0000",
       "minecraft:phantom": "2024-11-16 04:45:40 +0000",
       "minecraft:witch": "2024-11-16 04:45:36 +0000",
       "minecraft:cave_spider": "2024-11-15 08:30:15 +0000",
-      "minecraft:zombie": "2024-11-14 21:48:45 +0000"
+      "minecraft:zombie": "2024-11-14 21:48:45 +0000",
+      "minecraft:zombie_villager": "2024-11-17 22:20:24 +0000"
     },
     "done": false
   },
@@ -5496,6 +5504,174 @@
   "mekanism:laser": {
     "criteria": {
       "laser": "2024-11-16 10:41:50 +0000"
+    },
+    "done": true
+  },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2024-11-17 00:26:37 +0000"
+    },
+    "done": true
+  },
+  "mekanism:sna": {
+    "criteria": {
+      "solar_neutron_activator": "2024-11-17 00:39:50 +0000"
+    },
+    "done": true
+  },
+  "mekanism:automated_crafting": {
+    "criteria": {
+      "formulaic_assemblicator": "2024-11-17 01:08:36 +0000"
+    },
+    "done": true
+  },
+  "mekanism:qio_redstone_adapter": {
+    "criteria": {
+      "qio_redstone_adapter": "2024-11-17 01:17:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-11-17 02:06:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-11-17 03:48:01 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:solar_generator": {
+    "criteria": {
+      "solar_generator": "2024-11-17 04:46:41 +0000"
+    },
+    "done": true
+  },
+  "mekanism:elite_qio_drive": {
+    "criteria": {
+      "qio_drive_time_dilating": "2024-11-17 04:49:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-11-17 06:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-11-17 06:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-11-17 06:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-11-17 06:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-17 08:18:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-17 08:18:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-17 08:18:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-11-17 08:18:49 +0000"
+    },
+    "done": true
+  },
+  "mekanism:heat_transport": {
+    "criteria": {
+      "basic_thermodynamic_conductor": "2024-11-17 08:29:36 +0000"
+    },
+    "done": true
+  },
+  "mekanism:plutonium": {
+    "criteria": {
+      "pellet_plutonium": "2024-11-17 09:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-11-17 18:32:52 +0000"
+    },
+    "done": true
+  },
+  "mekanism:running_free": {
+    "criteria": {
+      "free_runners": "2024-11-17 18:43:37 +0000"
+    },
+    "done": true
+  },
+  "mekanism:simple_mass_storage": {
+    "criteria": {
+      "basic_bin": "2024-11-17 19:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-11-18 00:34:13 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_wood": {
+    "criteria": {
+      "has_log": "2024-11-18 00:34:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-11-18 01:11:45 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2024-11-18 00:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-11-18 00:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-11-18 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
+    "criteria": {
+      "has_logs": "2024-11-18 00:34:20 +0000"
     },
     "done": true
   },
