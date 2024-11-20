@@ -20,6 +20,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2024-11-14 21:41:38 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-11-18 21:42:18 +0000",
       "minecraft:taiga": "2024-11-15 22:54:29 +0000",
       "minecraft:deep_ocean": "2024-11-17 06:24:56 +0000",
       "minecraft:sunflower_plains": "2024-11-15 07:11:32 +0000",
@@ -540,7 +541,9 @@
       "shrubland": "2024-11-15 06:44:04 +0000",
       "rocky_shrubland": "2024-11-15 06:43:46 +0000",
       "floodplain": "2024-11-15 07:17:24 +0000",
+      "highland": "2024-11-18 12:52:55 +0000",
       "jacaranda_glade": "2024-11-14 22:12:48 +0000",
+      "wetland": "2024-11-18 21:42:34 +0000",
       "maple_woods": "2024-11-15 22:55:53 +0000",
       "orchard": "2024-11-15 06:43:44 +0000",
       "field": "2024-11-15 22:55:07 +0000",
@@ -557,6 +560,7 @@
       "volcanic_plains": "2024-11-16 05:18:29 +0000",
       "lavender_field": "2024-11-14 21:56:07 +0000",
       "fir_clearing": "2024-11-14 22:13:13 +0000",
+      "pumpkin_patch": "2024-11-18 21:45:42 +0000",
       "prairie": "2024-11-14 22:10:24 +0000",
       "grassland": "2024-11-15 07:17:16 +0000",
       "glowing_grotto": "2024-11-15 22:56:41 +0000",
@@ -5645,9 +5649,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
     "criteria": {
-      "has_bow": "2024-11-18 01:11:45 +0000"
+      "has_logs": "2024-11-18 00:34:20 +0000"
     },
     "done": true
   },
@@ -5669,9 +5673,57 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/maple_planks": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_logs": "2024-11-18 00:34:20 +0000"
+      "has_bow": "2024-11-18 01:11:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-11-18 11:49:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-11-18 12:54:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2024-11-18 12:54:46 +0000"
+    },
+    "done": true
+  },
+  "mekanism:waste_removal": {
+    "criteria": {
+      "radioactive_waste_barrel": "2024-11-18 15:13:00 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman_smithing": {
+    "criteria": {
+      "has_enderman": "2024-11-18 20:53:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-11-18 21:15:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/yellow_dye_from_goldenrod": {
+    "criteria": {
+      "has_goldenrod": "2024-11-18 21:37:12 +0000"
+    },
+    "done": true
+  },
+  "mekanism:network_reader": {
+    "criteria": {
+      "network_reader": "2024-11-18 23:00:07 +0000"
     },
     "done": true
   },

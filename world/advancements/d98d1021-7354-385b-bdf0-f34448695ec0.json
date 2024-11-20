@@ -876,6 +876,7 @@
       "minecraft:piglin_brute": "2024-11-07 16:42:39 +0000",
       "minecraft:creeper": "2024-10-30 03:49:16 +0000",
       "minecraft:wither": "2024-11-14 00:15:32 +0000",
+      "minecraft:slime": "2024-11-20 19:22:51 +0000",
       "minecraft:phantom": "2024-11-04 12:01:14 +0000",
       "minecraft:zombified_piglin": "2024-11-07 16:16:51 +0000",
       "minecraft:witch": "2024-10-30 03:59:30 +0000",
@@ -7484,6 +7485,42 @@
   "travelersbackpack:recipes/misc/enderman_smithing": {
     "criteria": {
       "has_enderman": "2024-11-14 17:55:51 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sandstone_smithing": {
+    "criteria": {
+      "has_sandstone": "2024-11-20 18:00:28 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/fox_smithing": {
+    "criteria": {
+      "has_fox": "2024-11-20 18:01:12 +0000"
+    },
+    "done": true
+  },
+  "mekanism:portable_qio_dashboard": {
+    "criteria": {
+      "portable_qio_dashboard": "2024-11-20 18:09:32 +0000"
+    },
+    "done": true
+  },
+  "mekanism:playing_with_fire": {
+    "criteria": {
+      "flamethrower": "2024-11-20 18:51:55 +0000"
+    },
+    "done": true
+  },
+  "mekanism:mekasuit": {
+    "criteria": {
+      "full_set": "2024-11-20 19:02:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-11-20 19:43:31 +0000"
     },
     "done": true
   },
